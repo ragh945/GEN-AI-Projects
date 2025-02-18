@@ -42,3 +42,56 @@ The main objective of this project is to develop a customizable, interactive, an
 - This chatbot is ideal for developers, researchers, students, and businesses looking to integrate AI-powered conversational agents into their applications.
 
 Deployment Screenshot : ![image](https://github.com/user-attachments/assets/0bb4d6db-1a5f-4108-b4c7-975ee8adec88)
+
+
+# Project: AI-Powered Research Assistant (RAG) 📄
+## Project Description
+- The AI-Powered Research Assistant leverages Retrieval-Augmented Generation (RAG) to provide intelligent responses based on research papers. It integrates Groq’s LLM, OpenAI/Hugging Face embeddings, FAISS vector storage, and ChromaDB to efficiently retrieve and summarize information from uploaded PDFs.
+
+## Main Features
+- PDF Document Processing: Loads and splits research papers for efficient retrieval.
+- Vector Database: Uses FAISS for semantic search and embeddings.
+- Groq LLM Integration: Leverages Gemma2-9B-IT for response generation.
+- Efficient Retrieval Chain: Combines document retrieval and answer generation.
+- Real-Time Response: Measures query execution time for optimization.
+
+## Libraries Used
+- streamlit - Web interface
+- langchain - LLM and retrieval chains
+- PyPDFDirectoryLoader - PDF loading
+- FAISS - Vector storage
+- OpenAIEmbeddings & HuggingFaceEmbeddings - Text embeddings
+- Chroma - Alternative vector DB
+- dotenv - Environment variable management
+
+## Objective
+To create an AI-powered assistant that extracts, retrieves, and summarizes key insights from research papers, enabling faster and more efficient academic exploration. 
+
+## Deployment Screenshot : ![image](https://github.com/user-attachments/assets/93a853e5-2555-4512-8700-dbab6dab92af)
+
+# Conversational RAG Q&A Chatbot with Chat History
+## Project Description
+- This Conversational RAG Chatbot allows users to upload PDFs and interact with their content through an AI-powered question-answering system. It integrates GROQ’s LLM, FAISS vector storage, and OpenAI embeddings while maintaining a chat history for context-aware responses.
+
+## Main Features
+- PDF Upload & Processing: Extracts and splits text from uploaded research papers.
+- Retrieval-Augmented Generation (RAG): Uses FAISS for document retrieval.
+- Contextual Question Understanding: Reformulates queries based on chat history.
+- Conversational Memory: Maintains session-based chat history.
+- Efficient & Accurate Responses: Generates concise, context-aware answers.
+
+## Libraries Used
+- streamlit - Web-based UI
+- langchain - LLM integration & retrieval chains
+- PyPDFLoader - PDF processing
+- FAISS - Vector database
+- OpenAIEmbeddings - Text embeddings
+- ChatGroq - LLM processing
+- dotenv - Environment management
+
+## Objective
+To create an AI chatbot that retrieves, understands, and responds to questions based on uploaded PDFs while preserving message history for enhanced user experience.
+
+## Deployment Screenshot : ![image](https://github.com/user-attachments/assets/03f077e4-1a71-474a-9722-0b3698cb7cf6)
+
+
